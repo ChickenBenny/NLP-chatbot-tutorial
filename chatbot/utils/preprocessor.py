@@ -29,6 +29,12 @@ class Preprocessor:
                 y.append(tag)
         return all_words, tags, x, y
 
+    def chatbot_msg_process(self, sentence):
+        tokenized_word = self._tokenize(sentence)
+        stem_word = self._stem(tokenized_word)
+        word = self._ignore_punc(stem_word)   
+        return word     
+
     def _read_json(self, file_name):
         with open(file_name, 'r') as f:
             return json.load(f)
