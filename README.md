@@ -1,5 +1,6 @@
 # NLP-chatbot-tutorial
 Tutorial of basic NLP and build a simple chatbot
+
 詳細開發過程請詳 : https://medium.com/@ChickenBenny/nlp-chatbot-tutorial-with-pytorch-78b16dedba1b
 
 ## Quick start
