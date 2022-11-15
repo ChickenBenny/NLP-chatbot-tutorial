@@ -36,7 +36,7 @@ class Chatbot:
         print("Let's chat! (type 'quit' to exit)")
         while True:
             sentence = input("You: ")
-            if sentence == "quit":
+            if sentence == "exit":
                 break
 
             sentence = self.prep.chatbot_msg_process(sentence)
